@@ -1,0 +1,42 @@
+A- Write The Initial Status of The Program (program_running, Message, Letters, Reversed_letters)
+B- Build Display Function
+    To Display 3 options to the user AfterThough Return His Choice
+C- Build Translate To Franco Function
+    1- Take Message From User
+    2- (Handle Two Combination Letters ('Sh', 'Ch', 'LL'))
+        Check Whether Any Of Twos Combination In The Message Or Not
+            If True:
+                Replace It With It's Equivalent From Letters Dictionary
+            Else:
+                continue
+    3- (Handle Single Letters)
+        Iterate Over The message's Letters
+        Fetch Each Letter Equivalent From letters
+            if Equivalent == None:
+                Continue
+            else:
+                Replace Each Franco Letter With It's Equivalent From Letters
+    4- Print Translated Message
+
+D- Build Translate To Arabic (From Franco To Arabic)
+######################################################
+### Main Program Pseudo Code
+Display() >>> It Returns Choice Given By User
+while Program_running (True):
+    If Choice == 1:
+        Translate_To_Franco()
+    Else if Choice == 2:
+        Translate_To_Arabic()
+    Else if choice == 3:
+        Exit
+    Else:
+        output("Invalid")
+    Display()
+
+
+
+
+
+
+
+
